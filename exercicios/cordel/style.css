@@ -1,1 +1,22 @@
 @charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    font-size: x-large;
+}
+header > a{
+    text-decoration: none;
+    color: white;
+}
+div.cordel{
+    width: 50%;
+    height: 50%;
+
+}
