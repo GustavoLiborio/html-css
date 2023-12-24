@@ -4,6 +4,9 @@
     margin: 0px;
     padding: 0px;
 }
+p{
+    font-weight: bold;
+}
 header{
     background-color: black;
     color: white;
@@ -37,16 +40,20 @@ div.cordel2{
     background-image: url(imagens/background001.jpg);
     background-position: center center;
     background-attachment: fixed;
+    box-shadow: 0px 0px 12px 2px #000000a6;
 }
 div.cordel3{
     background-image: url(imagens/background002.jpg);
     background-attachment: fixed;
+    box-shadow: 0px 0px 12px 2px #000000a6;
+   background-position: right bottom;
 }
 p.fundo{
     width: 400px;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.409);
     color: white;
+    box-shadow: 0px 0px 4px 2px #00000087;
 }
 footer > p{
     padding: 20px;
